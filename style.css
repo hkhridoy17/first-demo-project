@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+}
+.demo {
+  background: aquamarine;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.demo h2 {
+  display: inline-block;
+  padding-bottom: 2px;
+  border-bottom: 3px dashed rgb(18, 13, 63);
+}
+
+.header {
+  background-color: rgb(185, 217, 245);
+  text-align: center;
+  padding: 10px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.header h2 {
+  text-decoration: overline underline wavy darkblue;
+  padding: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.header p {
+  text-align: justify;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+.places {
+  background-color: rgb(228, 179, 119);
+  text-align: center;
+}
+
+.place {
+  background-color: cadetblue;
+  width: 45vw;
+  height: 65vh;
+  text-align: center;
+  padding: 5px;
+  margin: 3px;
+  overflow: scroll;
+  display: inline-block;
+  border: 2px solid blue;
+}
+
+.place img {
+  background-color: yellowgreen;
+  display: inline-block;
+  margin: 2px;
+  width: 20vmin;
+  height: 15vmin;
+  border: 1px solid black;
+}
